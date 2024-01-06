@@ -1,0 +1,91 @@
+body {
+    margin: 50PX;
+    padding: 0;
+    height: 100vh;
+    overflow: CLIP;
+    COLOR:#FFFFFF;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#videoFondo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; /* Coloca el video detrás del contenido de la página */
+}
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Alinea los elementos al principio y al final del contenedor */
+}
+
+.navbar h1 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menu-icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.description {
+    text-align: left;
+    margin-top: 200px; /* Ajusta el margen superior según sea necesario */
+    margin-bottom: 50px;
+}
+.description h1 {
+    color: #ffffff;
+    font-size: 64px;
+    margin-top: 5px;
+    line-height: 1PX;
+    font-weight: bold;
+}
+.description h2 {
+    color: #ffffff;
+    font-size: 50px;
+    margin-top: 5PX;
+    line-height: 1PX;
+    font-weight: bold;
+    
+}
+
+.description p {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 50px;
+    line-height: 1PX;
+}
+
+.button {
+    background-color: #ffffff;
+    color: black;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.footer {
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.footer img {
+    color: white;
+    width: 20px;
+    margin-right: 100px;
+    filter: brightness(0) invert(1);
+    margin-top: 50px;
+}
+
+.footer .icon {
+    width: 16px; /* El tamaño que desees */
+    height: 20PX;
+}
